@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ShippingAddress
+namespace ShippingAddress.Model
 {
     public class Customer
     {

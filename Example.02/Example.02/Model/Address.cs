@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ShippingAddress
+namespace ShippingAddress.Model
 {
     public class Address
     {
@@ -11,5 +9,10 @@ namespace ShippingAddress
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
+
+        public override string ToString()
+        {
+            return $"{AddressLine}, {City}, {State}, {Country}";
+        }
     }
 }
