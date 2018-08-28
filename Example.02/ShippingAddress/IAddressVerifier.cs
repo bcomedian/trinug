@@ -1,6 +1,4 @@
-﻿using ShippingAddress.Model;
-
-namespace ShippingAddress.Service.AddressVerifier
+﻿namespace ShippingAddress
 {
     public interface IAddressVerifier
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ShippingAddress.Model
+namespace ShippingAddress
 {
     public class Address
     {
@@ -9,6 +9,8 @@ namespace ShippingAddress.Model
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
+
+        public bool Existed { get; set; }
 
         public override string ToString()
         {
